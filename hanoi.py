@@ -11,4 +11,4 @@ def hanoi(disc, from_, to):
 	move(disc, from_, to, 2)
 
 if __name__ == '__main__':
-	hanoi(3, 1, 3)		
+	hanoi(3, 1, 3)
