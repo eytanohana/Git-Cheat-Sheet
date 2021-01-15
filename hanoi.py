@@ -12,5 +12,5 @@ def hanoi(disc):
 
 
 if __name__ == '__main__':
-    for m in hanoi(5):
+    for m in hanoi(10):
         print(m)
