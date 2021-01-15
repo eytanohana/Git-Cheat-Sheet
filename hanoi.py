@@ -1,3 +1,4 @@
+__author__ = 'eytano'
 
 def hanoi(disc):
     def move(d, f, t, v):
