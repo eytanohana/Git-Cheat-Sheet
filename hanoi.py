@@ -8,7 +8,6 @@ def hanoi(disc):
             yield from move(d - 1, f, v, t)
             yield f'Move disc {d} from {f} to {t}.'
             yield from move(d - 1, v, t, f)
-
     return move(disc, 1, 3, 2)
 
 
